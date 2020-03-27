@@ -123,8 +123,8 @@ class App extends React.Component {
           <PanelHeader>Vk-App</PanelHeader>
           <FormLayout>
 
-						<Input onChange={this.onChange} value={this.state.ownGroupName} name="ownGroupName" type="text" top="Название вашей группы"/>
-            <Input onChange={this.onChange} value={this.state.otherGroupName} name="otherGroupName" type="text" top="Название рассматриваемой группы"/>
+						<Input onChange={this.onChange} value={this.state.ownGroupName} name="ownGroupName" type="text" top="Короткое название вашей группы"/>
+            <Input onChange={this.onChange} value={this.state.otherGroupName} name="otherGroupName" type="text" top="Короткое название рассматриваемой группы"/>
 
 						<Button onClick={this.membersPrepare} type="submit" size="xl">Забанить пересечение</Button>
 						<Button onClick={this.membersPrepare} type="submit" size="xl">Разбанить пересечение</Button>

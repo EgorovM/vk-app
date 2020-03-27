@@ -106,7 +106,7 @@ class App extends React.Component {
 			).then(data => {console.log('success', data)})
 			.catch(error => {
 				console.log(error);
-				var url = `https://oauth.vk.com/authorize?client_id=${this.state.appId}&display=page&redirect_uri=https://localhost:10888&scope=groups&response_type=token&v=${this.state.version}&revoke=1`
+				var url = `https://oauth.vk.com/authorize?client_id=${this.state.appId}&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=groups&response_type=token&v=${this.state.version}&revoke=1`
 				console.log(url);
 				window.open(url);
 				return;

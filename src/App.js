@@ -9,9 +9,9 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      ownGroupName: 'noryon',
+      ownGroupName: '',
 			groupId: 0,
-      otherGroupName: 'physmach',
+      otherGroupName: '',
 			appId: '7375559',
 			version: '5.103',
 			access_token: '945b434ecae06d43b09613546f59a553909ae4ebbacf9bfbc9584f0ca02f7faf8a09afbfb8d2c093f3906',
